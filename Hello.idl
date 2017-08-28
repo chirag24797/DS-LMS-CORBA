@@ -1,0 +1,14 @@
+module HelloApp 
+{   
+	interface Hello   
+	{  
+	
+	//sayHello() is declared which can be replaced with own method declaration  
+    
+	string issueBook(in string bookName,in long amount); 
+	string returnBook(in string bookName,in long amount); 
+	string displayBook(in long i); 
+	
+	oneway void shutdown();   
+	}; 
+}; 
